@@ -2,7 +2,6 @@ import React from 'react';
 
 function Input(props) {
     const { name, placeholder, onChange } = props;
-
     return (
         <input
             type="text"
@@ -12,5 +11,4 @@ function Input(props) {
         />
     );
 }
-
 export default Input;
